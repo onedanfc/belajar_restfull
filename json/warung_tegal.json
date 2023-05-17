@@ -1,0 +1,31 @@
+{
+    "nama_restoran": "Warung Makan Sederhana",
+    "lokasi": "Jl. Raya Merdeka No. 10, Bandung",
+    "menu": [
+      {
+        "nama_menu": "Nasi Goreng",
+        "harga": 15000
+      },
+      {
+        "nama_menu": "Ayam Goreng",
+        "harga": 20000
+      },
+      {
+        "nama_menu": "Sayur Asem",
+        "harga": 10000
+      }
+    ],
+    "ulasan": [
+      {
+        "nama_pelanggan": "Ali",
+        "komentar": "Makanannya enak dan murah meriah!",
+        "rating": 4
+      },
+      {
+        "nama_pelanggan": "Budi",
+        "komentar": "Tempatnya agak kurang nyaman, tapi makanannya lumayan enak.",
+        "rating": 3
+      }
+    ]
+  }
+  

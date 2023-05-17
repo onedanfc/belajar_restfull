@@ -1,0 +1,31 @@
+{
+    "nama_restoran": "Restoran Padang Sederhana",
+    "lokasi": "Jl. Gatot Subroto No. 456, Jakarta",
+    "menu": [
+      {
+        "nama_menu": "Nasi Padang",
+        "harga": 35000
+      },
+      {
+        "nama_menu": "Rendang",
+        "harga": 40000
+      },
+      {
+        "nama_menu": "Ayam Pop",
+        "harga": 30000
+      }
+    ],
+    "ulasan": [
+      {
+        "nama_pelanggan": "David",
+        "komentar": "Makanannya enak banget!",
+        "rating": 5
+      },
+      {
+        "nama_pelanggan": "Sarah",
+        "komentar": "Harganya cukup terjangkau, tetapi sayangnya pelayanannya agak lambat.",
+        "rating": 3
+      }
+    ]
+  }
+  

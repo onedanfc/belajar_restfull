@@ -1,0 +1,31 @@
+{
+    "nama_restoran": "Sushi Tei",
+    "lokasi": "Plaza Senayan Lt. 4, Jakarta",
+    "menu": [
+      {
+        "nama_menu": "Sushi Salmon",
+        "harga": 50000
+      },
+      {
+        "nama_menu": "Katsu Curry",
+        "harga": 60000
+      },
+      {
+        "nama_menu": "Ebi Fry",
+        "harga": 55000
+      }
+    ],
+    "ulasan": [
+      {
+        "nama_pelanggan": "Michael",
+        "komentar": "Sushi di sini enak banget!",
+        "rating": 5
+      },
+      {
+        "nama_pelanggan": "Jessica",
+        "komentar": "Harganya agak mahal, tapi pelayanannya cukup baik.",
+        "rating": 4
+      }
+    ]
+  }
+  

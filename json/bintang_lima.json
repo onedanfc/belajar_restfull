@@ -1,0 +1,30 @@
+{
+  "nama_restoran": "Restoran Bintang Lima",
+  "lokasi": "Jl. Sudirman No. 123, Jakarta",
+  "menu": [
+    {
+      "nama_menu": "Nasi Goreng",
+      "harga": 25000
+    },
+    {
+      "nama_menu": "Ayam Goreng",
+      "harga": 30000
+    },
+    {
+      "nama_menu": "Sate",
+      "harga": 35000
+    }
+  ],
+  "ulasan": [
+    {
+      "nama_pelanggan": "John",
+      "komentar": "Makanan di sini sangat enak!",
+      "rating": 5
+    },
+    {
+      "nama_pelanggan": "Jane",
+      "komentar": "Pelayanannya cukup baik, tetapi harga makanannya agak mahal.",
+      "rating": 3
+    }
+  ]
+}

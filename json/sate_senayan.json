@@ -1,0 +1,31 @@
+{
+    "nama_restoran": "Sate Khas Senayan",
+    "lokasi": "Plaza Senayan, Lt. 3, Jl. Asia Afrika No. 8, Jakarta",
+    "menu": [
+      {
+        "nama_menu": "Sate Ayam",
+        "harga": 30000
+      },
+      {
+        "nama_menu": "Sate Kambing",
+        "harga": 35000
+      },
+      {
+        "nama_menu": "Sate Sapi",
+        "harga": 40000
+      }
+    ],
+    "ulasan": [
+      {
+        "nama_pelanggan": "Cindy",
+        "komentar": "Satenya enak dan bumbunya pas!",
+        "rating": 5
+      },
+      {
+        "nama_pelanggan": "David",
+        "komentar": "Harganya lumayan mahal untuk ukuran sate, tapi rasanya enak.",
+        "rating": 4
+      }
+    ]
+  }
+  

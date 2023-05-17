@@ -1,0 +1,31 @@
+{
+    "nama_restoran": "Bebek Goreng Haji Slamet",
+    "lokasi": "Jl. Cendrawasih No. 15, Surabaya",
+    "menu": [
+      {
+        "nama_menu": "Bebek Goreng",
+        "harga": 40000
+      },
+      {
+        "nama_menu": "Nasi Putih",
+        "harga": 5000
+      },
+      {
+        "nama_menu": "Tahu Tempe",
+        "harga": 10000
+      }
+    ],
+    "ulasan": [
+      {
+        "nama_pelanggan": "Eva",
+        "komentar": "Bebek gorengnya enak dan renyah!",
+        "rating": 5
+      },
+      {
+        "nama_pelanggan": "Fajar",
+        "komentar": "Porsinya agak kecil, tapi rasanya cukup enak.",
+        "rating": 3
+      }
+    ]
+  }
+  

@@ -1,6 +1,7 @@
 {
   "nama_restoran": "Restoran Bintang Lima",
   "lokasi": "Jl. Sudirman No. 123, Jakarta",
+  "gambar": "bintanglima.jpg",
   "menu": [
     {
       "nama_menu": "Nasi Goreng",

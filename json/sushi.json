@@ -1,6 +1,7 @@
 {
     "nama_restoran": "Sushi Tei",
     "lokasi": "Plaza Senayan Lt. 4, Jakarta",
+    "gambar": "sushi.jpg",
     "menu": [
       {
         "nama_menu": "Sushi Salmon",

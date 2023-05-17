@@ -1,6 +1,7 @@
 {
     "nama_restoran": "Warung Makan Sederhana",
     "lokasi": "Jl. Raya Merdeka No. 10, Bandung",
+    "gambar": "warteg.jpg",
     "menu": [
       {
         "nama_menu": "Nasi Goreng",

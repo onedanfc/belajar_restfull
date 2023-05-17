@@ -1,6 +1,7 @@
 {
     "nama_restoran": "Bebek Goreng Haji Slamet",
     "lokasi": "Jl. Cendrawasih No. 15, Surabaya",
+    "gambar": "bebekgoreng.jpg",
     "menu": [
       {
         "nama_menu": "Bebek Goreng",

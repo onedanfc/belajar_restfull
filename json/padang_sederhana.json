@@ -1,6 +1,7 @@
 {
     "nama_restoran": "Restoran Padang Sederhana",
     "lokasi": "Jl. Gatot Subroto No. 456, Jakarta",
+    "gambar": "padang.jpg",
     "menu": [
       {
         "nama_menu": "Nasi Padang",

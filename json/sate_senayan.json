@@ -1,6 +1,7 @@
 {
     "nama_restoran": "Sate Khas Senayan",
     "lokasi": "Plaza Senayan, Lt. 3, Jl. Asia Afrika No. 8, Jakarta",
+    "gambar": "sate.jpg",
     "menu": [
       {
         "nama_menu": "Sate Ayam",

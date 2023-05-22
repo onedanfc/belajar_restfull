@@ -45,7 +45,7 @@ $menu_warteg = $data_warteg['menu'];
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="restoran1.php">Home</a>
         </li>
       </ul>
     </div>
@@ -65,7 +65,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_bebek['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_bebek['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary" data-target="#modal">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=bebek_goreng" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>
@@ -82,7 +82,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_bintang['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_bintang['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=bintang_lima" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>
@@ -93,7 +93,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_padang['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_padang['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=padang_sederhana" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>
@@ -103,7 +103,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_sate['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_sate['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=sate_Senayan" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>
@@ -114,7 +114,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_sushi['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_sushi['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=sushi" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>
@@ -125,7 +125,7 @@ $menu_warteg = $data_warteg['menu'];
             <div class="card-body">
                 <h5 class="card-title"><?php echo $data_warteg['nama_restoran'] ?></h5>
                 <p class="card-text"><?php echo $data_warteg['lokasi'] ?></p>
-                <a href="#" class="btn btn-primary">Lihat Menu</a>
+                <a href="menu_restoran1.php?restoran=warung_tegal" class="btn btn-primary">Lihat Menu</a>
             </div>
             </div>
         </div>

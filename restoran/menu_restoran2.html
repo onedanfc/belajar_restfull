@@ -1,11 +1,3 @@
-<?php 
-$data = $_GET['restoran'];
-$restoran = file_get_contents('data/' . $data . '.json');
-$detailrestoran = json_decode($restoran, true);
-$menu = $detailrestoran['menu'];
-$review = $detailrestoran['ulasan'];
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,44 +25,29 @@ $review = $detailrestoran['ulasan'];
     </div>
   </div>
 </nav>
+<div class="container">
+    <div class="row mt-1" id="daftar-menu">
 
-<!-- <div class="container">
-    <div class="row mt-1">
-        <?php foreach($menu as $m) : ?>
-        <div class="col-md-4 p-3">
-            <div class="card" style="width: 25rem;">
-                <div class="card-header">
-                    <h3><?php echo $data ?></h3>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><?php echo $m['nama_menu'] ?></li>
-                    <li class="list-group-item"><?php echo $m['harga'] ?></li>
-                </ul>
-            </div>
-        </div>
-        <?php endforeach; ?>
     </div>
-</div> -->
+    <div class="row mt-3" id="ulasan">
 
-<!-- <div class="container mt-3">
-    <h3>Ulasan</h3>
-    <div class="row mt-1">
-<?php foreach($review as $ulasan) : ?>
-    <div class="col-md-6 p-1">
-        <ul class="list-group">
-            <li class="list-group-item list-group-item-success"><?php echo $ulasan['nama_pelanggan']; ?></li>
-            <li class="list-group-item list-group-item-danger"><?php echo $ulasan['komentar']; ?></li>
-            <li class="list-group-item list-group-item-warning"><?php echo $ulasan['rating']; ?></li>
-        </ul>
     </div>
-<?php endforeach; ?>
-    </div>
-</div> -->
+</div>
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script>
-
+        var restoran = new URLSearchParams(window.location.search).get('restoran');
+        $.getJSON(restoran, function(data1){
+            const menu = data1.menu;
+            $.each(menu, function(i, data){
+                $('#daftar-menu').append('<div class="col-md-4 p-3"><div class="card" style="width: 25rem;"><div class="card-header"><h3>'+ data1.nama_restoran +'</h3></div><ul class="list-group list-group-flush"><li class="list-group-item">'+ data.nama_menu +'</li><li class="list-group-item">'+ data.harga +'</li></ul></div></div>');
+            });
+            const ulasan = data1.ulasan;
+            $.each(ulasan, function(i, data){
+                $('#ulasan').append('<div class="col-md-6 p-1"><ul class="list-group"><li class="list-group-item list-group-item-success">'+ data.nama_pelanggan +'</li><li class="list-group-item list-group-item-danger">'+ data.komentar +'</li><li class="list-group-item list-group-item-warning">'+ data.rating +'</li></ul></div>');
+            });
+        });
     </script>
 </body>
 </html>

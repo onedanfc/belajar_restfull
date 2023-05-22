@@ -70,12 +70,6 @@ $menu_warteg = $data_warteg['menu'];
             </div>
         </div>
 
-        <!-- modal -->
-        <!-- <div class="modal-dialog modal-dialog-centered" id="modal">
-        ....
-        </div> -->
-
-
         <div class="col-md-4 p-3">
         <div class="card">
             <img src="img/<?php echo $data_bintang['gambar'] ?>" class="card-img-top" height="200">
